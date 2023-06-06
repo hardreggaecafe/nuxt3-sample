@@ -4,7 +4,7 @@
     <div class="m-3 bg-white rounded-lg shadow">
       <ul class="divide-y-2 divide-gray-100">
         <li class="p-3 hover:bg-blue-100" v-for="item in items">
-          {{ item.message }}:　{{ item.price }}円
+          <span class="font-bold text-white bg-red-900" v-if="item.price >1000">高級品</span>{{ item.message }}:　{{ item.price }}円
         </li>
       </ul>
     </div>
