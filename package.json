@@ -16,6 +16,7 @@
     "tailwindcss": "^3.3.2"
   },
   "dependencies": {
+    "microcms-js-sdk": "^2.5.0",
     "nuxt-microcms-module": "^3.0.1"
   }
 }
