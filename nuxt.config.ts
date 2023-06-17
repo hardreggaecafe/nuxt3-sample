@@ -10,5 +10,8 @@ export default defineNuxtConfig({
   runtimeConfig: {
       apiKey: API_KEY,
       serviceDomain: SERVICE_DOMAIN
+  },
+  routeRules: {
+    '/lists/new': { ssr: false },
   }
 })

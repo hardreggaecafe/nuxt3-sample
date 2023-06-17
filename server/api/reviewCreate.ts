@@ -21,5 +21,5 @@ export default defineEventHandler(async (event) => {
         .catch(function(err){
             console.log (err)
         })
-    return sendRedirect(event, "/lists/")
+    return response
 })
